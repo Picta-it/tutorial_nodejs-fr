@@ -13,13 +13,13 @@ Ce tutoriel &agrave; pour but de vous montrer comment cr&eacute;er un site avec 
 
 Prérequis :
 * Installer [Git](http://git-scm.com/)
-..*.[Windows](http://git-scm.com/download/win)
-..*.[Linux](http://git-scm.com/download/linux)
-..*.[Mac](http://git-scm.com/download/mac)
+    * [Windows](http://git-scm.com/download/win)
+    * [Linux](http://git-scm.com/download/linux)
+    * [Mac](http://git-scm.com/download/mac)
 * Installer [NodeJs](http://nodejs.org/)
-..*.[Windows](http://nodejs.org/dist/v0.10.33/node-v0.10.33-x86.msi)
-..*.[Linux](http://nodejs.org/dist/v0.10.33/node-v0.10.33.tar.gz)
-..*.[Mac](http://nodejs.org/dist/v0.10.33/node-v0.10.33.tar.gz)
+    * [Windows](http://nodejs.org/dist/v0.10.33/node-v0.10.33-x86.msi)
+    * [Linux](http://nodejs.org/dist/v0.10.33/node-v0.10.33.tar.gz)
+    * [Mac](http://nodejs.org/dist/v0.10.33/node-v0.10.33.tar.gz)
 
 Pour &ecirc;tre sur que les installations fonctionnent.
 
@@ -53,9 +53,9 @@ Par exemple :
 
 ## Liste des étapes :
 * Etape 01
-...Installation de Hapi
-...Creation de "Hello World !!""
+    * Installation de Hapi
+    * Creation de "Hello World !!""
 * Etape 02
-...Qu'est-cequ'une template
-...Utilisation de templates
-...Mise en place de bootstrap
+    * Qu'est-cequ'une template
+    * Utilisation de templates
+    * Mise en place de bootstrap
