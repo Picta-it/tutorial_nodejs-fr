@@ -11,7 +11,7 @@ Ce tutoriel &agrave; pour but de vous montrer comment cr&eacute;er un site avec 
 * AngularJs
 * Socket.io
 
-Prérequis :
+### Prérequis :
 * Installer [Git](http://git-scm.com/)
     * [Windows](http://git-scm.com/download/win)
     * [Linux](http://git-scm.com/download/linux)
@@ -51,11 +51,15 @@ Par exemple :
 
      git checkout -b steps step-01
 
+Pour lire les explications des étapes :
+
+    Cliquez sur le fichier `step-[NUMERO D'ETAPE].md` correspondant
+
 ## Liste des étapes :
-* Etape 01
-    * Installation de Hapi
+* [Etape 01](step-01.md)
+    * Installation de *Hapi*
     * Creation de "Hello World !!""
 * Etape 02
-    * Qu'est-cequ'une template
+    * Qu'est-ce qu'une template
     * Utilisation de templates
     * Mise en place de bootstrap
