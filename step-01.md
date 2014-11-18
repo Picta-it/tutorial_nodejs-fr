@@ -1,16 +1,5 @@
 # Cr&eacute;ation d'un site
 
-## Pr&eacute;requis
-
-### Installation de [Node.JS](http://nodejs.org/download/)
-
-Pour &ecirc;tre sur que l'installation fonctionne.
-
-Ouvrez un terminal et lancez :
-
-    node --version
-    npm --version
-
 ## Step - 01 : Cr&eacute;ation de notre Hello World !!
 
 <MON_REPERTOIRE> correspond &agrave; l'endroit o&ugrave; vous allez cr&eacute;er votre application.
@@ -39,10 +28,8 @@ Cr&eacute;ez le fichier `index.js ` et mettez-y ce contenu :
 
     var Hapi = require('hapi');
     
-    // Create a server with a host and port
     var server = new Hapi.Server('localhost', 3000);
     
-    // Add the route
     server.route({
       method: 'GET',
       path: '/',
@@ -51,7 +38,6 @@ Cr&eacute;ez le fichier `index.js ` et mettez-y ce contenu :
       }
     });
     
-    // Start the server
     server.start();
 
 ### On regarde notre travail
@@ -63,3 +49,52 @@ Et rentrez l'adresse suivante dans l'URL (le champ blanc tou en haut de l'écran
     localhost:3000
 
 [Ou cliquez l&agrave;](http://localhost:3000)
+
+### Kesako
+
+Petites explications
+
+Revoyons le fichier index.js
+
+On récupère la librairie Hapi pour pouvoir travailler avec :
+
+    var Hapi = require('hapi');
+    
+On crée un serveur qui écoutera sur le port 3000 :
+
+    var server = new Hapi.Server('localhost', 3000);
+    
+On définit une nouvelle route sur ce serveur
+
+    server.route({
+       ...
+    })
+
+Une route correspond à la fin de notre URL.
+
+Par exemple, si vous allez sur http://localhost:3000/pouetpouet
+`/pouetpouet` correspondra à notre route
+
+On passe 3 options à server.route.
+
+`method: 'GET'` : Il s'agit du type de communication HTTP. Il en existe plusieurs autres comme 'POST', 'PUT', 'DELETE' et d'autres plus sophistiqués. **Elle servent principalement pour les formulaires, donc laissez GET**
+
+`path: '/'`: On précise le chemin de la route.
+`handler: function( request, reply) {}` : On précise ce qui se passe quand quelqu'un va sur cet URL.
+
+Ce qui nous donne :
+
+    server.route({
+      method: 'GET',
+      path: '/',
+      handler: function (request, reply) {
+        reply('Hello World !!');
+      }
+    });
+
+`reply('Hello World !!')` nous permet de renvoyer du texte simple à l'utilisateur.
+
+Et enfin, on démarre le serveur :
+
+    server.start();
+
