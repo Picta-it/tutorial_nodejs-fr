@@ -59,7 +59,24 @@ Pour lire les explications des étapes :
 * [Etape 01](step-01.md)
     * Installation de *Hapi*
     * Creation de "Hello World !!""
-* Etape 02
+* [Etape 02](step-02.md)
     * Qu'est-ce qu'une template
     * Utilisation de templates
+* [Etape 03](step-03.md)
+    * Qu'est-ce qu'un layout
+    * Utilisation d'un layout
+* [Etape 04](step-04.md)
+    * Création d'une structure de site
+* [Etape 05](step-05.md)
+    * Qu'est-ce que bootstrap
     * Mise en place de bootstrap
+* [Etape 06](step-06.md)
+    * Qu'est-ce que MongoDB
+    * Mise en place de MongoDB
+* [Etape 07](step-07.md)
+    * Qu'est-ce que Mongoose
+    * Mise en place de Mongoose
+* [Etape 08](step-08.md)
+    * Pourquoi faire des tests
+    * Mise en plase de tests
+
