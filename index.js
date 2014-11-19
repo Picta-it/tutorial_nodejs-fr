@@ -7,8 +7,10 @@ server.views({
   engines: {
     html: require('handlebars')
   },
-  basePath:  __dirname,
-  path:      "./app/views/"
+  layout:       true,
+  layoutPath:   "./app/views/layout",
+  basePath:     __dirname,
+  path:         "./app/views/"
 })
 
 // Add the route
@@ -18,6 +20,8 @@ server.route({
   handler: function (request, reply) {
     reply.view('index', {
       title: 'Mon premier site'
+    }, {
+      layout: 'main'
     });
   }
 });
