@@ -40,6 +40,11 @@ Cr&eacute;ez le fichier `index.js ` et mettez-y ce contenu :
     
     server.start();
 
+### On lance le serveur depuis le terminal
+
+    cd <MON_REPERTOIRE>
+    node index.js
+
 ### On regarde notre travail
 
 Ouvrez votre navigateur (Firefox, Chrome, Internet Explorer, Opera, etc. au choix)
