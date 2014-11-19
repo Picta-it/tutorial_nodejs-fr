@@ -1,9 +1,9 @@
-# Cr&eacute;ation d'un site
+# Création d'un site
 
 ## Step - 03 : Les layouts
 
-`<MON_REPERTOIRE>` correspond &agrave; l'endroit o&ugrave; vous allez cr&eacute;er votre application.
-Vous devez d'abord le cr&eacute;er. Clic droit Nouveau > Dossier
+`<MON_REPERTOIRE>` correspond à l'endroit où vous allez créer votre application.
+Vous devez d'abord le créer. Clic droit Nouveau > Dossier
 
 ### Mise à niveau
 

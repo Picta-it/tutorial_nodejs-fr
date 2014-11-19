@@ -1,9 +1,9 @@
-# Cr&eacute;ation d'un site
+# Création d'un site
 
-## Step - 01 : Cr&eacute;ation de notre Hello World !!
+## Step - 01 : Création de notre Hello World !!
 
-`<MON_REPERTOIRE>` correspond &agrave; l'endroit o&ugrave; vous allez cr&eacute;er votre application.
-Vous devez d'abord le cr&eacute;er. Clic droit Nouveau > Dossier
+`<MON_REPERTOIRE>` correspond à l'endroit où vous allez créer votre application.
+Vous devez d'abord le créer. Clic droit Nouveau > Dossier
 
 ### On initialise notre projet.
 
@@ -12,9 +12,9 @@ Ouvrez un terminal et saisissez :
     cd <MON_REPERTOIRE>
     npm init -f
 
-Saisissez votre nom, puis <kbd>Entr&eacute;e</kbd>. Si vous le souhaitez, vous pouvez personnaliser le projet en enlevant le `-f` : `npm init`. Ces valeurs servent uniquement &agrave; titre indicatif pour le moment. Donc, vous ne risquez pas de tout casser.
+Saisissez votre nom, puis <kbd>Entrée</kbd>. Si vous le souhaitez, vous pouvez personnaliser le projet en enlevant le `-f` : `npm init`. Ces valeurs servent uniquement à titre indicatif pour le moment. Donc, vous ne risquez pas de tout casser.
 
-Une fois termin&eacute;, ces valeurs sont mises dans le fichier `package.json` dans un format plus informatique.
+Une fois terminé, ces valeurs sont mises dans le fichier `package.json` dans un format plus informatique.
 
 ### Nous allons installer [Hapi.JS](http://hapijs.com/).
 
@@ -22,9 +22,9 @@ Dans le terminal saisissez
 
     npm install hapi --save
 
-### On cr&eacute;e notre Hello World
+### On crée notre Hello World
 
-Cr&eacute;ez le fichier `index.js ` et mettez-y ce contenu :
+Créez le fichier `index.js ` et mettez-y ce contenu :
 
     var Hapi = require('hapi');
     
@@ -53,7 +53,7 @@ Et rentrez l'adresse suivante dans l'URL (le champ blanc tout en haut de l'écra
 
     localhost:3000
 
-[Ou cliquez l&agrave;](http://localhost:3000)
+[Ou cliquez là](http://localhost:3000)
 
 ### Kesako - petites explications
 
