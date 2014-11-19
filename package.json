@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "handlebars": "^2.0.0",
     "hapi": "^7.5.2"
   },
   "devDependencies": {},
